@@ -226,7 +226,60 @@ namespace Program
             //}
 
             //9 задания
+            //Console.WriteLine("Введите сложность игры (1-легкий, 2-средний, 3-сложный ");
+            //int lvl = int.Parse(Console.ReadLine());
+
+            //switch (lvl)
+            //{
+            //    case 1: Console.WriteLine("Уровень сложности легкий"); break;
+            //    case 2: Console.WriteLine("Уровень сложности средний"); break;
+            //    case 3: Console.WriteLine("Уровень сложности сложный"); break;
+            //}
+
+
+            //10 задания
+            //static int health = 100; //статическа переменная health с значением 100. Кол-во здоровья игрока.
+
+            //static void Main(string[] args) //статический метод Main. Главная точка входа в программу.
+            //{
+            //    Console.WriteLine($"Здоровья персонажа: {health}"); //вывод здоровья игрока 
+            //    TakeDamage(30); //тут мы вызываем 2 метод и говорим уменьшай здоровья персонажа на 30
+            //}
+            //static void TakeDamage(int damage) //второй метод когда игрок получит урон
+            //{
+            //    health -= damage; //уменьшаем значения здоровья на кол-во урона 
+            //    Console.WriteLine($"Персонаж получил {damage} урона. Текущее здоровья {health}"); //выводит сколько человек получил урона и текщее здоровья
+            //}
+
+            //11 задания 
+
+            //Console.WriteLine("Вебери класс");
+            //Console.WriteLine("Воин, маг, разбойник, паладин, варвар, охотник, друид, жрец");
+            //string lvl = Console.ReadLine().ToLower();
+
+            //switch (lvl)
+            //{
+            //    case "воин": Console.WriteLine("Вы ближний бой"); break;
+            //    case "маг": Console.WriteLine("Вы дальний бой"); break;
+            //    case "разбойник": Console.WriteLine("Вы ближний бой"); break;
+            //    case "паладин": Console.WriteLine("Вы ближний бой"); break;
+            //    case "варвар": Console.WriteLine("Вы ближний бой"); break;
+            //    case "охотник": Console.WriteLine("Вы дальний бой"); break;
+            //    case "друид": Console.WriteLine("Вы ближний и дальний бой"); break;
+            //    case "жрец": Console.WriteLine("Вы дальний бой"); break;
+            //}
+
+            //12 задания 
             
+            int s = 0;
+            int i = 0;
+            for (i = 0; i < 3; i++)  {
+                
+
+
+
+
+
         }
     }
 }
