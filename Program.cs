@@ -122,9 +122,19 @@ namespace Program
             //Console.WriteLine("Введите четырехзначное число ");
             //int num = int.Parse(Console.ReadLine());
 
-            //int n3 = (num % 10) + (num / 1000);
+            //int n1 = num / 1000;
+            //int n2 = (num / 100) % 10;
+            //int n3 = (num / 10) % 10;
+            //int n4 = num % 10;
 
-            //Console.WriteLine(num);
+            //if ((n1 + n4) == (n2 - n3))
+            //{
+            //    Console.WriteLine("ДА");
+            //}
+            //else
+            //{
+            //    Console.WriteLine("НЕТ");
+            //}
 
 
             //4 задания 
@@ -270,16 +280,62 @@ namespace Program
             //}
 
             //12 задания 
-            
-            int s = 0;
-            int i = 0;
-            for (i = 0; i < 3; i++)  {
-                
 
+            //int s = 0;
 
+            //Console.WriteLine("Введите 1 число");
+            //int n1 = int.Parse(Console.ReadLine());
+            //Console.WriteLine("Введите 2 число");
+            //int n2 = int.Parse(Console.ReadLine());
+            //Console.WriteLine("Введите 3 число");
+            //int n3 = int.Parse(Console.ReadLine());
 
+            //if (n1 > 0)
+            //{
+            //    s += n1;
+            //}
+            //if (n2 > 0)
+            //{
+            //    s += n2;
+            //}
+            //if (n3 > 0)
+            //{
+            //    s += n3;
+            //}
+            //Console.WriteLine("Сумма положительных чисел {0}", s);
 
+            //13 задания
 
+            //Console.WriteLine("Какой путь выберишь?");
+            //Console.WriteLine("Путь А: Войти в комнату с огромным драконом. (Напишите А)");
+            //Console.WriteLine("Путь B: Пойти по темному коридору. (напишете B)");
+
+            //string vbor = Console.ReadLine().ToLower();
+            //switch (vbor)
+            //{
+            //    case "a": Console.WriteLine("Вам нужно ответить на загадку.. \n \"Кто не дышит, но живет; хоть не нужно — много пьет; и в\r\nжизни, и в смерти тело как лед.\" ");
+            //        string vdor1 = Console.ReadLine().ToLower();
+            //        if (vdor1 == "рыба")
+            //        {
+            //            Console.WriteLine("Верно");
+            //        }
+            //        else
+            //        {
+            //            Console.WriteLine("Увы вас съели!");
+            //        }
+            //        break;
+            //    case "b": Console.WriteLine("Вы зашли в темную команту выберите одну из дверей! \n Дверь 1 (Напишите 1)\n Дверь 2(Напишите 2)");
+            //        string q = Console.ReadLine();
+            //        if (q == "1")
+            //        {
+            //            Console.WriteLine("Поздравляю вы нашли сокровища Dungeon Master’а");
+            //        }
+            //        else
+            //        {
+            //            Console.WriteLine("Вы попали в ловушку с ядовитыми шипами! \n GAMEOVER");
+            //        }
+            //        break;
+            //}
         }
     }
 }
